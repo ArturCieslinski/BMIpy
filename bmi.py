@@ -1,5 +1,5 @@
 x = input('Wprowadź obecną masę ciała w kg\n')
-y = input ('Wprowadź wzrost w m\n')
+y = input ('Wprowadź wzrost w m w formie n.nn\n')
 bmi = float(x)/(float(y)**2)
 print('BMI = ' + str(bmi))
 print(
